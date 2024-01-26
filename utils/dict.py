@@ -4,4 +4,3 @@ def get_val(collection, key, default='git'):
         return data[key]
     return default
 
-print(get_val({'a': 1, 'b': 2}, 'c'))
